@@ -8,3 +8,9 @@ $FOLDER=s1
 for f in $FOLDER/*.mp4
 do echo "file '$f'" >> mylist.txt
 done
+
+# Following is how it looks in file mylist.txt.
+# All files to combine must be preceded by a "file" keyword.
+# file 's1/f31.mp4'
+# file 's1/f32.mp4'
+# file 's1/f33.mp4'
